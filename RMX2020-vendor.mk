@@ -28,6 +28,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
     vendor/realme/RMX2020/proprietary/lib/libdpframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpframework.so \
     vendor/realme/RMX2020/proprietary/lib64/libdpframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpframework.so \
+    vendor/realme/RMX2020/proprietary/lib/libstagefright_soft_avcdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_soft_avcdec.so \
+    vendor/realme/RMX2020/proprietary/lib/libstagefright_soft_mpeg4dec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_soft_mpeg4dec.so \
     vendor/realme/RMX2020/proprietary/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvpud_vcodec.so
 
 PRODUCT_PACKAGES += \
